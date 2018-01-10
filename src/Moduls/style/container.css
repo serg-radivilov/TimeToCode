@@ -1,0 +1,31 @@
+.app-container {
+  text-align: center;
+  font: 12px 'Arial', sans-serif;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 2.5em rgba(255, 255, 255, 0.6);
+}
+.app-container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-container .container .number-container {
+  text-align: center;
+}
+.app-container .container:last-child {
+  position: relative;
+  bottom: 20px;
+}
+.app-container .today-date {
+  font-weight: bold;
+}
+.app-container .btn-timer {
+  cursor: pointer;
+  color: #151f3f;
+  font-weight: bold;
+}
+.app-container .number-time {
+  font: 12px 'LED', sans-serif;
+}
+.app-container .timer {
+  font: 12px 'LED', sans-serif;
+}
